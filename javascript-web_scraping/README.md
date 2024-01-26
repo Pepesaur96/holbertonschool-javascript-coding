@@ -12,17 +12,17 @@ To manipulate JSON data in JavaScript:
 
 JSON (JavaScript Object Notation) is a lightweight data interchange format. JavaScript provides built-in methods to manipulate JSON data:
 
-1. Parsing: You can parse a JSON string into a JavaScript object using JSON.parse().
+- Parsing: You can parse a JSON string into a JavaScript object using JSON.parse().
 
-   const jsonString = '{"name": "John", "age": 30}';
-   const jsonObject = JSON.parse(jsonString);
-   console.log(jsonObject.name); // Output: John
+  const jsonString = '{"name": "John", "age": 30}';
+  const jsonObject = JSON.parse(jsonString);
+  console.log(jsonObject.name); // Output: John
 
-2. Stringifying: You can convert a JavaScript object into a JSON string using JSON.stringify().
+- Stringifying: You can convert a JavaScript object into a JSON string using JSON.stringify().
 
-   const jsonObject = { name: "John", age: 30 };
-   const jsonString = JSON.stringify(jsonObject);
-   console.log(jsonString); // Output: {"name":"John","age":30}
+  const jsonObject = { name: "John", age: 30 };
+  const jsonString = JSON.stringify(jsonObject);
+  console.log(jsonString); // Output: {"name":"John","age":30}
 
 To use the request and fetch APIs:
 
